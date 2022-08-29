@@ -17,11 +17,11 @@ public class BootcampersController {
     public BootcampersController(BootcamperService bootcamperService) {
         this.bootcamperService = bootcamperService;
 
-        this.bootcamperService.add(new Bootcamper("uno", Math.random()));
-        this.bootcamperService.add(new Bootcamper("dos", Math.random()));
-        this.bootcamperService.add(new Bootcamper("tres", Math.random()));
-        this.bootcamperService.add(new Bootcamper("cuatro", Math.random()));
-        this.bootcamperService.add(new Bootcamper("cinco", Math.random()));
+        this.bootcamperService.add(new Bootcamper("Juan", 20, "Arg"));
+        this.bootcamperService.add(new Bootcamper("Pedro", 25, "Col"));
+        this.bootcamperService.add(new Bootcamper("Ana", 34, "Bol"));
+        this.bootcamperService.add(new Bootcamper("Maria", 18, "Ecu"));
+        this.bootcamperService.add(new Bootcamper("Enzo",40, "Arg"));
 
     }
 
